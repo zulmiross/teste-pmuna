@@ -168,14 +168,36 @@
             </div>
         </nav>
 
-        <nav class="navbar-floating-button">
-            <button class="btn-floating-menu"><i class="bi bi-list"></i></button>
-            <ul>
-                <li class="btn-floating">1</li>
-                <li class="btn-floating">2</li>
-                <li class="btn-floating">3</li>
-            </ul>
+
+        <!-- Floating menu  -->
+
+        <nav class="nav-bottom d-xl-none">
+            <a href="#" class="nav-bottom__link">
+                <i class="bi bi-house"></i>
+                <span class="nav-bottom__text">Home</span>
+            </a>
+            <a href="#" id="perfil" class="nav-bottom__link">
+                <i class="bi bi-person"></i>
+                <span class="nav-bottom__text">Perfil</span>
+            </a>
+            <div class="menu">
+                <a class="nav-bottom__link__menu">
+                    <i class="bi bi-list"></i>
+                    <span class="nav-bottom__text">Menu</span>
+                </a>
+            </div>
+            <a href="#" class="nav-bottom__link">
+                <i class="bi bi-edit"></i>
+                <span class="nav-bottom__text">Pedidos</span>
+            </a>
+            <a href="#" class="nav-bottom__link">
+                <i class="bi bi-gear"></i>
+                <span class="nav-bottom__text">Sistema</span>
+            </a>
         </nav>
+
+        <!-- Floating menu  -->
+
 
 
 
@@ -190,8 +212,7 @@
                         <a href="#" class="navbar-brand">
                             <img src="../assets/images/logo/freshcart-logo.svg" alt="" />
                         </a>
-                        <button type="button" class="btn-close d-block d-xl-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        <a id="btn_close" class="btn-close text-inherit d-none d-xl-block"></a>
+                        <a id="btn_close" class="btn-close text-inherit"></a>
                     </div>
                     <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                         <ul class="navbar-nav flex-column" id="sideNavbar">
